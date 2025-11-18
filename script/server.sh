@@ -1,0 +1,1 @@
+poetry run uvicorn server:create_app --factory --workers 1 --host 127.0.0.1 --port 8000
